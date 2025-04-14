@@ -144,6 +144,7 @@ ChangesStream.prototype.request = function () {
   opts.rejectUnauthorized = this.rejectUnauthorized;
   opts.headers = {
     'accept': 'application/json'
+    'npm-replication-opt-in': true
   };
   opts.agent = this.agent;
 
